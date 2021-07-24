@@ -1,0 +1,54 @@
+.title {
+    text-align: left;
+    margin-left: 20px ;
+}
+
+.header { 
+    float: right;
+    margin: 0px 10px;
+    margin: 0px 15px;
+}
+
+.header a {
+    border:0px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #00C851;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+table {
+    margin: 10px 10px;
+    background-color: #fff;
+    padding: 1rem;
+    width: 100%;
+}
+
+table tr:first-child {
+    font-weight: bold;
+}
+table tr {
+    border-bottom: #ddd;
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+ }
+
+ table a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 0px 20px;
+    text-align: center;
+ }
+
+ table input {
+     background: #dc3545;
+     border: 0px;
+     border-radius: 4px;
+     padding:  6px 8px 4px 8px;
+     color: #fff;
+ }
