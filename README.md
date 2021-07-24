@@ -2,7 +2,7 @@
 1. [Informacion General](#general-info)
 2. [Tecnolgoias](#technologies)
 3. [Configuracion](#config)
-4. [Notas][#notes]
+4. [Notas](#notes)
 5. [Errores Conocidos](#know-errors)
 
 ### Informacion general
