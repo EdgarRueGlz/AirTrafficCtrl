@@ -19,6 +19,6 @@ class SizeSeeder extends Seeder
             ['description' => 'Grande'],
         ];
         
-        DB::table('size')->insert($sizes);
+        DB::table('sizes')->insert($sizes);
     }
 }

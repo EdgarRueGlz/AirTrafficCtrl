@@ -21,6 +21,6 @@ class TypeSeeder extends Seeder
             ['description' => 'Cargo']
         ];
         
-        DB::table('type')->insert($types);
+        DB::table('types')->insert($types);
     }
 }

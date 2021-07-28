@@ -17,9 +17,9 @@ class CreateAircraftTable extends Migration
             $table->id();
             $table->string('model');
             $table->unsignedBigInteger('type_id');
-            $table->foreign('type_id')->references('id')->on('type');
+            $table->foreign('type_id')->references('id')->on('types');
             $table->unsignedBigInteger('size_id');
-            $table->foreign('size_id')->references('id')->on('size');
+            $table->foreign('size_id')->references('id')->on('sizes');
             $table->timestamps();
         });
     }

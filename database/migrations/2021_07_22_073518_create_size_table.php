@@ -27,6 +27,6 @@ class CreateSizeTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('size');
+        Schema::dropIfExists('sizes');
     }
 }
